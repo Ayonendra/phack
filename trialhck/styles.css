@@ -1,0 +1,197 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+/* Fonts */
+h1, h2, h3 {
+    font-family: 'Creepster', cursive;
+    color: #ff7518;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header .logo {
+    font-size: 2rem;
+    color: #ff7518;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 1.1rem;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff7518;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #00000070;
+    background-image: url('https://images.unsplash.com/photo-1481018085669-2bc6e4f00eed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: #fc8611;
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.hero .btn {
+    font-size: 1.3rem;
+    background-color: #ff7518;
+    color: #0d0d0d;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #f2f2f2;
+    color: #0d0d0d7c;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1a1a1a71;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.95);
+}
+
+.service {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a69;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
+}
+
+.service h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.service h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.service a {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #ff7518;
+    text-decoration: none;
+}
+
+.service a:hover {
+    color: #f2f2f2cb;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.95);
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin: 10px 0 5px;
+}
+
+#contact form input, #contact form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact form button {
+    padding: 10px 25px;
+    background-color: #ff7518;
+    color: #0d0d0d;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #f2f2f2;
+    color: #0d0d0d7b;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #0d0d0d68;
+    color: #ff7518;
+}
